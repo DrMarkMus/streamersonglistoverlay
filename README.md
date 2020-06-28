@@ -49,15 +49,9 @@ You can customise a lot of settings by editing the ```const``` values at the top
 
 The URL where the streamersonglist.com API is found. You will not need to edit this!
 
-### streamerName
-
-Your name on Twitch, in lower case. This should match the name you're using on streamersonglist.com as well, which is normally automatic when you sign up.
-
-For example, if your name on Twitch is "My_Cool_Name", you would use "my_cool_name" (lower case).
-
 ### streamerId
 
-Not currently used.
+You need to find out your streamerId on StreamerSongList website and change it
 
 ### allCaps
 
