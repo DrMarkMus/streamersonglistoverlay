@@ -16,10 +16,10 @@ Download the ZIP file and extract it somewhere on your computer, for example, **
 Go inside the ```lib``` directory and open ```streamersonglist.js```. Near the top, you will see something like this:
 
 ```
-const streamerName = "yourTwitchName";
+const streamerId = "yourStreamerSongListStreamerId";
 ```
 
-Replace **yourTwitchName** with your Twitch name, making sure to keep the double quotes in place (the **"** characters), and save the file.
+Replace **yourStreamerSongListStreamerId** with your StreamerSongList's StreamerId, making sure to keep the double quotes in place (the **"** characters), and save the file.
 
 ## Testing
 
