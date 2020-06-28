@@ -73,3 +73,10 @@ h3{
     color:#9068be;
     margin-left: 50px;
 }
+
+.queueEmpty{
+   color:#9068be;
+   text-align: center;
+   margin: auto;
+   padding: 50px;
+}
