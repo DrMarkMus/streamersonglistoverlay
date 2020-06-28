@@ -1,7 +1,45 @@
 body {
-    background: none;
-    margin: 0;
-    font-family: Arial, sans-serif;
+    background: transparent;
+    margin: 0px;
+    padding:0px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+h1,h2,h3, h4 {
+  font-weight: 800;
+  font-size: 16px;
+  margin: 0px;
+  padding:0px;
+}
+h1{
+  color:#9068be;
+  font-size:20px;  
+}
+h2{
+  color:#6ed3cf;
+}
+h3{
+  color:#e1e8f0
+}
+h4{
+  font-size:40px;
+  margin-right:20px;
+  margin-top:-12px;
+  color:#e1e8f0
+}
+h3{
+  text-decoration: overline;
+  margin-top:10px
+  margin-bottom:10px;
+}
+.cell{
+  clear:left;
+  margin:10px;
+}
+
+
+.float-left{
+  float:left;
 }
 
 #queue-wrapper {
@@ -9,21 +47,12 @@ body {
     background: none;
 }
 
-#queue-wrapper > div {
-    background: rgba(0, 0, 0, 0.8);
-    height: 36px;
-    line-height: 36px;
-    color: rgb(255, 255, 255);
-    padding-left: 16px;
-    font-size: 14px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin-bottom: 2px;
+.requestedBy {
+    font-weight: 800;
 }
 
 .artist {
-    white-space: nowrap;
+    font-weight: 800;
 }
 
 .title {
