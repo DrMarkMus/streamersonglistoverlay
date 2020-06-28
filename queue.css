@@ -12,14 +12,14 @@ h1,h2,h3, h4 {
   padding:0px;
 }
 h1{
-  color:#9068be;
+  color:#e1e8f0;
   font-size:20px;  
 }
 h2{
   color:#6ed3cf;
 }
 h3{
-  color:#e1e8f0
+  color:#e1e8f0;
 }
 h4{
   font-size:40px;
@@ -70,13 +70,14 @@ h3{
 .more {
     font-weight: bold;
     text-align: right;
-    color:#9068be;
+    color:#e1e8f0;
     margin-left: 50px;
 }
 
 .queueEmpty{
-   color:#9068be;
+   color:white;
    text-align: center;
    margin: auto;
    padding: 50px;
+   font-size: 30px;
 }
